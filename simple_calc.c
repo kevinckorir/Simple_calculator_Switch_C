@@ -1,5 +1,4 @@
 #include <stdio.h>
-/*#include <conio.h>*/
 
 /**
  * main - do simple calculations
@@ -20,24 +19,24 @@ int main(void)
 	/*Perform the operation*/
 	switch (operator)
 	{
-	case '+' : 
+	case '+':
 		sum = a + b;
 		printf("Answer = %d\n", sum);
 		break;
-	case '-' : 
+	case '-':
 		sub = a - b;
 		printf("Answer = %d\n", sub);
 		break;
-	case '*' :
-	       	mul = a * b;
+	case '*':
+		mul = a * b;
 		printf("Answer = %d\n", mul);
 		break;
-	case '/' : div = a / b;
+	case '/':
+		div = a / b;
 		printf("Answer = %d\n", div);
 		break;
 	default:
 		printf("Enter a valid operator");
 	}
-	/*getch();*/
 	return (0);
 }
